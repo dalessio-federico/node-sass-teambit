@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  height: 80vh;
+  width: 100%;
+}
+
+.topheader {
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+
+.jumbo {
+  height: 90%;
+}
+
+.first_section {
+  height: 110vh;
+  width: 100%;
+  background-color: #ffe7d2;
+}
