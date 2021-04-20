@@ -4,17 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Teambit</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="topheader">
-
+            <div class="topheader flexRowSB">
+                <div class="logo">
+                    <img src="img\logo.svg" alt="logo">
+                </div>
+                <div class="menu">
+                    <ul class="inline flexRowSa">
+                        <li><a href="#">Solution <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#"><button class="flexRowSa">
+                            <img src="img\google-logo.svg" alt="Glogo">
+                            Sign up
+                        </button></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="jumbo">
-
+            <div class="jumbo flexRowCenter">
+                <div class="halfW jumboRight">
+                    <div class="jumboText">
+                        <h1>Understand, recognize and develop your people</h1>
+                        <p>Teambit helps teams create a high performing culture with regular feedback</p>
+                    </div>
+                    <div class="jumboSignIn flexRowCenter">
+                        <button class="commonButton"><img src="img\google-logo.svg" alt="Glogo"> Sign up with Google</button>
+                        <span>or</span>
+                        <button class="commonButton"><img src="img\slack-logo.svg" alt="Slogo">Sign up with Slack </button>
+                    </div>
+                    <div class="useEmail">
+                        <p>or use your email address <i class="fas fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="halfW jumboLeft">
+                    <img src="img\illustration-main.jpg" alt="jumboimg">
+                </div>
             </div>
         </div>
     </header>

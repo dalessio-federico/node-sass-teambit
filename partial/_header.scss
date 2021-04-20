@@ -5,10 +5,52 @@ header {
 
 
 .topheader {
-    height: 10%;
+    height: 60px;
     border-bottom: 1px solid black ;
+    button {
+        height: 41px;
+        width: 100px;
+        color: $ButtonColor;
+        border: 1px solid $ButtonColor;
+        background-color: white;
+        border-radius: 10px;
+        img{
+            height: 70%;
+        }
+    }
 }
 
 .jumbo {
     height: 90%;
+}
+
+.jumboText {
+    margin: 35px 0 80px 0;
+    h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+.jumboSignIn {
+    justify-content: flex-start;
+    span {
+        margin: 0 10px;
+    }
+}
+
+.useEmail {
+    margin-top: 7px;
+    p {
+        font-size: 12px;
+    }
+}
+.jumboLeft {
+    img {
+        height: 100%;
+        width: 100%;
+    }
 }
