@@ -1,0 +1,33 @@
+footer {
+    height: 40vh;
+    margin-top: 35px;
+    .flexRowSa {
+        align-items: flex-start;
+    }
+    .footerLeft {
+        @include displayFlex;
+        width: 35%;
+        margin-right: 25px;
+        img {
+            width: 40%;
+            margin-right: 20px;
+        }
+        span {
+            color: $ButtonColor;
+            font-size: 10px;
+        }
+    }
+    ul {
+        width: 10%;
+        list-style: none;
+        li {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        & li:first-child {
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+}
