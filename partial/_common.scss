@@ -42,6 +42,11 @@ body {
     justify-content: center;
 }
 
+.flexColumn {
+    @include displayFlex;
+    flex-direction: column;
+}
+
 .flexColumnCenter {
     @include displayFlex;
     flex-direction: column;

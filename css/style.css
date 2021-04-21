@@ -45,6 +45,12 @@ body {
   justify-content: center;
 }
 
+.flexColumn {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
 .flexColumnCenter {
   display: flex;
   display: -webkit-flex;
@@ -137,7 +143,143 @@ header {
 }
 
 .first_section {
-  height: 110vh;
+  width: 100%;
+  text-align: center;
+  background-color: #ffe7d2;
+}
+.first_section h2 {
+  padding: 50px 0;
+  font-size: 22px;
+}
+
+.firstsectionUp {
+  border-bottom: 1px solid black;
+}
+
+.firstsectionDown {
+  height: 98vh;
+}
+
+.firstsectionSubsec {
+  height: 25vh;
+  width: 35%;
+}
+.firstsectionSubsec .specialIMG {
+  height: 54%;
+  width: 19%;
+}
+.firstsectionSubsec img {
+  height: 55%;
+  width: 35%;
+}
+.firstsectionSubsec p {
+  font-size: 11px;
+  padding-top: 30px;
+}
+
+.specialIMG {
+  height: 100%;
+  width: 30%;
+}
+
+.imgContainer {
+  height: 60vh;
+}
+.imgContainer img {
+  height: 60%;
+}
+
+.contentBox {
+  height: 80vh;
+  margin-top: 30px;
+}
+
+.contentImg img {
+  width: 100%;
+  height: 75%;
+}
+
+.contentText .contentTexUp {
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 30%;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.contentText .contentTexUp a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.contentText .contentTextDown {
+  height: 70%;
+  width: 60%;
+}
+.contentText .contentTextDown img {
+  height: 75%;
+  width: 90%;
+}
+.contentText .left {
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 45%;
+}
+
+.thirdSection {
+  height: 105vh;
   width: 100%;
   background-color: #ffe7d2;
+}
+.thirdSection .thirdSectionText {
+  width: 33%;
+}
+.thirdSection .thirdSectionText h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.thirdSection .thirdSectionContent {
+  position: relative;
+  height: 50%;
+  width: 55%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #2c4792;
+  border-radius: 10px;
+  background-color: white;
+}
+.thirdSection .thirdSectionContent .outsidefont {
+  position: absolute;
+  left: -2px;
+  top: -31px;
+  font-size: 45px;
+  color: #2c4792;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentText {
+  margin-bottom: 35px;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentText p {
+  margin: 15px 0;
+  font-size: 13px;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentEnd {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  height: 100px;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentEnd img {
+  width: 8%;
+  margin-right: 10px;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentEnd .contentEndText {
+  display: inline-block;
+  font-size: 15px;
+}
+.thirdSection .thirdSectionContent .thirdSectionContentEnd .contentEndText span {
+  color: #2c4792;
+}
+.thirdSection .ThirdSectionSignIn {
+  justify-content: flex-start;
+}
+.thirdSection .ThirdSectionSignIn span {
+  margin: 0 10px;
 }

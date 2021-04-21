@@ -1,5 +1,145 @@
 .first_section {
-    height: 110vh;
+    width: 100%;
+    text-align: center;
+    background-color: $Background;
+    h2 {
+        padding: 50px 0;
+        font-size: 22px;
+    }
+}
+
+.firstsectionUp {
+    border-bottom: 1px solid black;
+}
+
+.firstsectionDown {
+    height: 98vh;
+}
+
+.firstsectionSubsec {
+    height: 25vh;
+    width: 35%;
+    .specialIMG {
+        height: 54%;
+        width: 19%;
+    }
+    img {
+        height: 55%;
+        width: 35%;
+    }
+    p {
+        font-size: 11px;
+        padding-top: 30px;
+    }
+}
+
+.specialIMG {
+    height: 100%;
+    width: 30%;
+}
+
+.imgContainer {
+    height: 60vh;
+    img {
+        height: 60%;
+    }
+}
+
+.contentBox {
+    height: 80vh;
+    margin-top: 30px;
+}
+
+.contentImg {
+    img {
+        width: 100%;
+        height: 75%;
+    }
+}
+
+.contentText {
+    .contentTexUp{
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 30%;
+        width: 60%;
+        margin-bottom: 10px;
+        a {
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+    .contentTextDown {
+        height: 70%;
+        width: 60%;
+        img {
+            height: 75%;
+            width: 90%;
+        }
+    }
+    .left {
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 45%;
+    }
+}
+
+
+.thirdSection {
+    height: 105vh;
     width: 100%;
     background-color: $Background;
+    .thirdSectionText {
+        width: 33%;
+        h2 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+    }
+    .thirdSectionContent {
+        position: relative;
+        height: 50%;
+        width: 55%;
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid $ButtonColor;
+        border-radius: 10px;
+        background-color: white;
+        .outsidefont {
+            position: absolute;
+            left: -2px;
+            top: -31px;
+            font-size: 45px;
+            color: $ButtonColor;
+        } 
+        .thirdSectionContentText {
+            margin-bottom: 35px;
+            p {
+                margin: 15px 0;
+                font-size: 13px;
+            }
+        }
+        .thirdSectionContentEnd {
+            @include displayFlex;
+            align-items: center;
+            height: 100px;
+            img {
+                width: 8%;
+                margin-right: 10px;
+            }
+            .contentEndText {
+                display: inline-block;
+                font-size: 15px;
+                span {
+                    color: $ButtonColor;
+                }
+            }
+        }
+    }
+    .ThirdSectionSignIn {
+        justify-content: flex-start;
+        span {
+            margin: 0 10px;
+        }
+    }
 }
